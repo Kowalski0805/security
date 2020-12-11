@@ -1,0 +1,17 @@
+{
+  "name": "genetic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zalupa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "geneticalgorithm": "^1.0.2",
+    "n-gram": "^1.1.2",
+    "node-fetch": "^2.6.1",
+    "uuid": "^8.3.1"
+  }
+}
