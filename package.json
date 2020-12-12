@@ -9,9 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
     "geneticalgorithm": "^1.0.2",
+    "md5": "^2.3.0",
     "n-gram": "^1.1.2",
     "node-fetch": "^2.6.1",
+    "nthline": "^1.0.2",
+    "sha1": "^1.1.1",
     "uuid": "^8.3.1"
   }
 }
