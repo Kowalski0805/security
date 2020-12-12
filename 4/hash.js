@@ -12,7 +12,7 @@ const getSalt = () => crypto.randomBytes(16).toString('hex');
 
 const getSha = password => {
     const salt = getSalt();
-    return sha1(password + salt) + '.' + salt;
+    return sha1(password + salt) + ':' + salt;
 };
 
 const getBcrypt = password => bcrypt.hash(password, 5);
